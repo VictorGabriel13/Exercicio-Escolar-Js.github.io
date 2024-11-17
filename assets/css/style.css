@@ -22,7 +22,7 @@ body {
     color: white;
     border: none;
     padding: 8px 12px;
-    borde-radius: 20px;
+    border-radius: 20px;
     font-size: 15px;
     margin-right: 20px;
     cursor: pointer;
@@ -32,8 +32,8 @@ body {
     background-color: darkslateblue;
     color: white;
     border: none;
-    padding: 8px 12px;
-    borde-radius: 20px;
+    border-radius: 20px;
+    padding: 5px 8px;
     font-size: 15px;
     margin-right: 20px;
     cursor: pointer;
