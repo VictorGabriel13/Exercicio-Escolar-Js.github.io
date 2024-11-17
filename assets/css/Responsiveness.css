@@ -12,7 +12,8 @@
     #button_test, #playbutton {
         margin: 10px auto;
         font-size: 12px;
-        padding: 8px;
+        padding: 8px 12px;
+        borde-radius: 20px;
         max-width: 190%;
     }
 
