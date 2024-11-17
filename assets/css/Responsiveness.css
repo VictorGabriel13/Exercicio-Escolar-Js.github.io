@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    #container {
+        margin-top: 5%;
+        padding: 10px;
+    }
+
+    #generica {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #button_test, #playbutton {
+        margin: 10px auto;
+        font-size: 12px;
+        padding: 8px;
+        max-width: 190%;
+    }
+
+    #playbutton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Hello_Word-Js {
+        margin-left: 0;
+    }
+}

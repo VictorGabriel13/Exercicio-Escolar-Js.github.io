@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(131, 131, 231);
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+#generica {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+#button_test {
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#playbutton {
+    display: flex;
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    max-width: 12%; 
+    text-align: center; 
+    justify-content: center; 
+    margin-left: 45%; margin-top: 10px;
+}
+
+#Hello_Word-Js {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Word Js</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/Responsiveness.css">
+</head>
+<body>
+    <div id="container">
+        <h1 style="text-align: center;">Exercicio Básico Js</h1>
+        <p id="Hello_Word-Js">Hello Word</p>
+        
+        <div id="generica">
+            <button type="button" id="button_test"
+                onclick='document.getElementById("Hello_Word-Js").innerHTML = "Olá Mundo"'>Clique Aqui para Traduzir</button>
+
+            <button type="button" id="button_test"
+                onclick='document.getElementById("Hello_Word-Js").innerHTML = "Hello Word"'>Volte para o Padrão</button>
+        </div>
+        
+        <audio id="audio" src="assets/audio/C418 - Minecraft - Minecraft Volume Alpha.mp3" loop></audio>
+        <button type="button" id="playbutton" onclick="toggleMusic()">Tocar Música : ▶️</button>
+    </div>
+    
+    <script>
+        window.confirm("Bem-Vindo ao Meu Site de Estudos sobre JS");
+        window.prompt("Poderia me Dizer o seu Nome?");
+
+        // Controle da música
+        const audio = document.getElementById("audio");
+        let isPlaying = false;
+
+        function toggleMusic() {
+            if (isPlaying) {
+                audio.pause();
+                isPlaying = false;
+                document.getElementById("playbutton").textContent = "Tocar Música : ▶️";
+            } else {
+                audio.play();
+                isPlaying = true;
+                document.getElementById("playbutton").textContent = "Pausar Música : ⏸️";
+            }
+        }
+    </script>
+</body>
+</html>
